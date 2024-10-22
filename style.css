@@ -564,7 +564,7 @@ header ul li:hover {
 /* food article_block */
 
 .article_block{
-  margin-top: 8rem;
+  margin-top: 10rem;
   padding: 3rem 2rem;
 }
 
@@ -1380,6 +1380,9 @@ header ul li:hover {
     flex-direction: row;
     justify-content: space-around;
   }
+  .services {
+    margin: 2rem 1rem;
+  }
 
   .cards h2{
     text-align: center;
@@ -1426,6 +1429,10 @@ header ul li:hover {
   .cards {
     padding: 4rem 2rem;
     border-radius: 25px;
+  }
+
+  .cards img{
+    width: 40px;
   }
 
   .cards_container{
@@ -1675,6 +1682,44 @@ footer p img{
   .icon_container {
     margin-bottom: 0;
     flex-wrap: nowrap;
-
   }
+
+  .icon_container img{
+    width: 50px;
+    padding: 1.2rem;
+  }
+
+
+  .icon_container {
+    column-gap: 3rem;
+  }
+  
+  .icon_container img:first-of-type{
+    background: #39DB4A;
+    width: 45px;
+    padding: 1rem 1.4rem;
+    border-radius: 50%;
+  }
+
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .icon_container img{
+    width: 70px;
+    padding: 2rem;
+  }
+
+  .icon_container {
+    column-gap: 3rem;
+  }
+  
+  .icon_container img:first-of-type{
+    background: #39DB4A;
+    width: 70px;
+    padding: 1.8rem 2.4rem;
+    border-radius: 50%;
+  }
+  
 }
