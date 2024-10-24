@@ -1,0 +1,285 @@
+/* Chef Section */
+
+.chef_section {
+  margin: 2rem;
+  margin-top: 28rem;
+}
+
+.chef {
+  background: #39DB4A;
+  width: 268.98px;
+  height: 197.9px;
+  border-top-left-radius: 140px;
+  border-top-right-radius: 140px;
+  border-bottom-left-radius: 41px;
+  border-bottom-right-radius: 41px;
+  position: relative;
+}
+
+.chef .chefImage {
+  position: absolute;
+  width: 254.76px;
+  height: 399.64px;
+  top: -196px;
+  object-fit: contain;
+}
+
+.chef .emoji{
+  position: absolute;
+  left: -10px;
+  width: 35px;
+  top: 60px;
+}
+
+.chef .cone{
+  position: absolute;
+  width: 40px;
+  right: -8px;
+  top: 55px;
+}
+
+.chef p{
+  box-shadow: 7px 14px 43px 0px #00000024;
+  background: #FFFFFF;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 0.6rem 1.2rem;
+  position: absolute;
+  z-index: 1;
+  bottom: -10px;
+  right: -20px;
+  border-radius: 2px 8px 8px 18px;
+}
+
+
+/* testimonials_content */
+.chef_parent {
+  display: flex;
+  flex-direction: column;
+  row-gap: 3rem;
+  align-items: center;
+}
+
+.testimonials{
+  max-width: 280px;
+}
+
+.testimonials_content p{
+  color: #FF6868;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.testimonials_content h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-top: 0.6rem;
+  margin-bottom: 0.8rem;
+  line-height: 1.4;
+}
+
+.testimonials_content blockquote{
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #555555;
+  line-height: 1.6;
+}
+
+.image_group {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  margin-top: 1.8rem;
+}
+
+.groupImg img{
+  width: 35px;
+  margin-right: -15px;
+}
+
+.reviews p:first-child{
+  font-size: 1.2rem;
+  color: #000;
+  font-weight: 600;
+}
+
+.reviews p:last-child{
+  color: #807E7E;
+  margin-top: 0.4rem;
+  font-weight: 500;
+}
+
+
+
+.reviews p img, span {
+  display: none;
+}
+
+
+@media screen and (min-width: 768px){
+
+  .chef_parent {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 4rem;
+  }
+
+  .chef_section {
+    margin-top: 18rem;
+  }
+
+  .testimonials {
+    max-width: 50%;
+    margin-bottom: 18rem;
+  }
+
+  .chef {
+    width: 320px;
+    height: 240px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+
+  .chef .chefImage {
+    width: 290px;
+    height: 450px;
+    top: -205px;
+  }
+  .chef .emoji{
+  position: absolute;
+  left: -18px;
+  width: 44px;
+  top: 110px;
+}
+
+.chef .cone{
+  position: absolute;
+  width: 40px;
+  right: -12px;
+  top: 90px;
+}
+.chef p{
+  font-size: 2rem;
+  bottom: -15px;
+  padding: 1rem 2.2rem;
+  right: -40px;
+  border-radius: 30px;
+  border-top-left-radius: 0;
+}
+  
+  .testimonials_content p{
+    font-size: 1.8rem;
+  }
+
+  .testimonials_content h2{
+    font-size: 3.3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+
+  .testimonials_content blockquote{
+    font-size: 2rem;
+    max-width: 440px;
+  }
+
+  .image_group {
+    column-gap: 3rem;
+  }
+
+  .groupImg img{
+    width: 50px;
+    margin-right: -17px;
+  }
+  .reviews p:first-of-type{
+    font-size: 2rem;
+  }
+  .reviews p{
+    font-size: 1.8rem;
+  }
+  
+}
+
+
+@media screen and (min-width: 1024px){
+
+  .testimonials {
+    margin-bottom: 18rem;
+  }
+
+  .chef {
+    width: 390px;
+    height: 310px;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 41px;
+    border-bottom-right-radius: 41px;
+  }
+
+  .chef .chefImage {
+    width: 370px;
+    height: 550px;
+    top: -240px;
+  }
+  .chef .emoji {
+    top: 140px;
+  }
+  .chef .cone {
+    top: 120px;
+  }
+
+  
+  .testimonials_content p{
+    font-size: 2rem;
+  }
+
+  .testimonials_content h2{
+    font-size: 4rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    white-space: nowrap;
+    line-height: 1.4;
+  }
+
+  .testimonials_content blockquote{
+    font-size: 2.6rem;
+  }
+
+  .image_group {
+    column-gap: 4rem;
+  }
+
+  .groupImg img{
+    width: 80px;
+    margin-right: -20px;
+  }
+
+  .reviews p img{
+    width: 24px;
+    position: relative;
+    top: 4px;
+  }
+
+  .reviews p img, span {
+    display: inline-block;
+  }
+  .reviews p:first-of-type{
+    font-size: 2.6rem;
+  }
+  .reviews p{
+    font-size: 2.4rem;
+  }
+  .reviews p span{
+    color: #555555;
+    margin: 0 0.6rem;
+    font-size: 2.4rem;
+  }
+
+  .testimonials {
+    max-width: 500px;
+    margin-bottom: 18rem;
+  }
+}
+

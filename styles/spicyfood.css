@@ -1,0 +1,384 @@
+/*Food section */
+
+.parent_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.section_div {
+  margin: 0 1.2rem;
+}
+
+.first_element {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Intersect {
+  background-color: #39DB4A;
+  width: 200px;
+  margin: 5rem 0;
+  border-radius: 50%;
+  height: 168px;
+  position: relative;
+}
+
+.Intersect img {
+  width: 200px;
+  position: absolute;
+  top: -50px;
+}
+
+.Intersect p {
+  color: #FF6868;
+  font-weight: 600;
+  background-color: #fff;
+  width: 100px;
+  position: absolute;
+  white-space: nowrap;
+  top: 10px;
+  left: -55px;
+}
+
+.spicy_foof {
+  display: flex;
+  column-gap: 1rem;
+  margin-top: -60px;
+  justify-content: center;
+  position: relative;
+  margin-left: 0.3rem;
+  margin-right: 0.3rem;
+}
+
+.child_element {
+  display: flex;
+  column-gap: 1rem;
+  align-items: center;
+  box-shadow: 7px 35px 51px 0px #00000024;
+  border-radius: 60px;
+  background-color: #ffffff;
+  padding: 1rem;
+  padding-right: 1rem;
+}
+
+.child_element img {
+  width: 37.36px;
+  object-fit: contain;
+}
+
+.child_element h2 {
+  font-size: 1rem;
+  color: #000;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.child_element .stars {
+  margin: 0.4rem 0;
+}
+
+.child_element p {
+  font-size: 1rem;
+}
+
+.child_element p a {
+  color: #FF6868;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+
+.delight{
+  max-width: 290px;
+}
+
+.delight h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.delight h1 a{
+  color: #39DB4A;
+}
+
+.delight p {
+  color: #4A4A4A;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  column-gap: 1.8rem;
+  margin-top: 1.6rem;
+}
+
+.btn button {
+  background-color: #39DB4A;
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 600;
+  border: 0;
+  border-radius: 30px;
+  padding: 1.4rem 2rem;
+  box-shadow: -2px 22px 38px 0px #8EFF9A80;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.btn button:hover{
+  background-color: #24ed38;
+}
+
+.btn p{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #4D4D4D;
+  cursor: pointer;
+}
+
+.btn img{
+  box-shadow: 6px 27px 34px 0px #0000001A;
+  padding: 0.8rem 1rem;
+  width: 40px;
+  object-fit: contain;
+  background: #fff;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+
+@media screen and (min-width: 475px) {
+
+  .spicy_foof {
+    column-gap: 2rem;
+  }
+
+  .child_element{
+    padding-left: 1.6rem;
+    padding-right: 1.8rem;
+  }
+
+  .child_element img {
+    width: 50px;
+  }
+
+  .delight h1{
+    font-size: 3.3rem;
+  }
+  .delight p{
+    font-size: 1.7rem;
+  }
+  .btn button{
+    font-size: 1.7rem;
+  }
+  .btn p{
+    font-size: 1.7rem;
+  }
+
+  .delight{
+    max-width: 310px;
+  }
+
+  .Intersect {
+    width: 250px;
+    height: 218px;
+    position: relative;
+  }
+  
+  .Intersect img {
+    width: 250px;
+    position: absolute;
+    top: -50px;
+  }
+  
+  .Intersect p {
+    color: #FF6868;
+    font-weight: 500;
+    background-color: #fff;
+    width: 120px;
+    position: absolute;
+    white-space: nowrap;
+    top: 15px;
+    left: -60px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .parent_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .first_element {
+    padding: 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .first_element{
+    order: 2;
+  }
+
+  .child_element1{
+    padding-right: 2.2rem;
+    padding-left: 1.8rem;
+  }
+
+  .spicy_foof {
+    column-gap: 2rem;
+  }
+
+  .Intersect {
+    width: 300px;
+    border-radius: 50%;
+    height: 268px;
+  }
+  
+  .Intersect img {
+    width: 300px;
+    position: absolute;
+    top: -50px;
+  }
+
+  .Intersect p {
+    width: 120px;
+    top: 22px;
+    left: -55px;
+    font-size: 1.2rem;
+  }
+  
+  .child_element{
+    border-radius: 12px;
+  }
+
+  .child_element h2{
+    font-size: 1.2rem;
+  }
+
+  .child_element .stars{
+    margin: 0.5rem 0;
+  }
+
+  .child_element p{
+    font-size: 1.2rem;
+  }
+
+  .delight {
+    max-width: 400px;
+  }
+  .delight h1{
+    font-size: 3.5rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .delight p{
+    font-size: 1.8rem;
+  }
+
+  .btn button{
+    font-size: 1.8rem;
+    padding: 1.3rem 2rem;
+    white-space: nowrap;
+  }
+
+  .btn{
+    margin-top: 3rem;
+  }
+
+  .btn p{
+    font-size: 2rem;
+    white-space: nowrap;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+
+  .section_div {
+    margin-top: 8rem;
+  }
+
+  .parent_div {
+    align-items: center;
+  }
+
+  .Intersect {
+    width: 400px;
+    border-radius: 50%;
+    height: 368px;
+  }
+  
+  .Intersect img {
+    width: 420px;
+    position: absolute;
+    top: -90px;
+    left: -25px;
+  }
+
+  .Intersect p {
+    width: 170px;
+    top: 32px;
+    left: -80px;
+    font-size: 1.4rem;
+  }
+
+  .delight{
+    max-width: 520px;
+    margin-bottom: 4rem;
+  }
+  
+  .child_element{
+    border-radius: 12px;
+  }
+
+  .child_element h2{
+    font-size: 1.2rem;
+  }
+
+  .child_element .stars{
+    margin: 0.5rem 0;
+  }
+
+  .child_element p{
+    font-size: 1.2rem;
+  }
+
+  .delight h1{
+    font-size: 4rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .delight p{
+    font-size: 2.4rem;
+    margin-top: 2rem;
+  }
+
+  .btn button{
+    font-size: 2.4rem;
+    padding: 1.4rem 2.2rem;
+  }
+
+  .btn{
+    margin-top: 4rem;
+  }
+
+  .btn p{
+    font-size: 2.4rem;
+    margin: 0 1rem;
+  }
+}
+
+
