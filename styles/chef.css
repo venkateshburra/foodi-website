@@ -174,14 +174,14 @@
   }
 
   .testimonials_content h2{
-    font-size: 3.3rem;
+    font-size: 2.8rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     line-height: 1.6;
   }
 
   .testimonials_content blockquote{
-    font-size: 2rem;
+    font-size: 1.8rem;
     max-width: 440px;
   }
 
@@ -190,14 +190,14 @@
   }
 
   .groupImg img{
-    width: 50px;
+    width: 40px;
     margin-right: -17px;
   }
   .reviews p:first-of-type{
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
   .reviews p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
   }
   
 }
@@ -236,7 +236,7 @@
   }
 
   .testimonials_content h2{
-    font-size: 4rem;
+    font-size: 3.3rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
     white-space: nowrap;
@@ -244,7 +244,7 @@
   }
 
   .testimonials_content blockquote{
-    font-size: 2.6rem;
+    font-size: 2.2rem;
   }
 
   .image_group {
@@ -252,7 +252,7 @@
   }
 
   .groupImg img{
-    width: 80px;
+    width: 70px;
     margin-right: -20px;
   }
 
@@ -266,15 +266,15 @@
     display: inline-block;
   }
   .reviews p:first-of-type{
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
   .reviews p{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
   .reviews p span{
     color: #555555;
     margin: 0 0.6rem;
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
   .testimonials {

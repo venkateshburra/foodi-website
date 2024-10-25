@@ -116,17 +116,17 @@
 @media screen and (min-width: 1024px) {
 
   .list_items p{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     margin-top: 2rem;
   }
 
   .lists li{
-    font-size: 2.4rem;
+    font-size: 2.2rem;
   }
 
 
   .lists li:first-of-type{
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
 
   .article_list {
