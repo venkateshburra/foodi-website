@@ -162,6 +162,16 @@
   .dishes_items .Fattoush {
     width: 180px;
   }
+  .container{
+    position: relative;
+  }
+
+  .arrodiv{
+    position: absolute;
+    top: 50px;
+    right: 0;
+  }
+  
 
   .description {
     justify-content: space-around;
@@ -178,6 +188,7 @@
     margin-top: 1.2rem;
     font-size: 2.2rem;
   }
+
 
   .description {
     margin-top: 1rem;
@@ -224,16 +235,7 @@
     column-gap: 3rem;
   }
 
-  .container{
-    position: relative;
-  }
 
-  .arrodiv{
-    position: absolute;
-    top: 30px;
-    right: 20px;
-  }
-  
 
   .dishes_items {
     width: 100%;
