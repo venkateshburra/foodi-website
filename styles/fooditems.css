@@ -2,7 +2,8 @@
 /* food article_block */
 
 .article_block{
-  margin-top: 10rem;
+  margin-top: 13rem;
+  margin-bottom: 8rem;
   padding: 3rem 2rem;
 }
 
@@ -139,14 +140,23 @@
   }
 
   .food_heading p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
 
   .food_heading h1{
-    font-size: 3.6rem;
+    font-size: 4rem;
     margin-top: 0.8rem;
   }
   
+  .food_items p{
+    font-size: 1.8rem;
+  }
+
+  .food_items p:first-of-type{
+    font-size: 2rem;
+    margin-top: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
   
 }
 
@@ -162,12 +172,13 @@
     justify-content: center;
   }
 
+
   .food_heading p{
     font-size: 2rem;
   }
 
   .food_heading h1{
-    font-size: 4.6rem;
+    font-size: 5rem;
     margin-top: 1rem;
   }
 
@@ -200,11 +211,11 @@
   }
  
   .food_items p{
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
 
   .food_items p:first-of-type{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-top: 1.2rem;
     margin-bottom: 0.8rem;
   }

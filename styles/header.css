@@ -65,6 +65,7 @@ header ul li {
   border-bottom: 1px solid gray;
   padding-bottom: 1rem;
   white-space: nowrap;
+  transition: 0.1s 0.2s;
 }
 
 header ul li.home {
@@ -72,7 +73,8 @@ header ul li.home {
 }
 
 header ul li:hover {
-  color: #5a5858;
+  /* color: #5a5858; */
+  color: #5b4c4c;
 }
 
 
@@ -145,6 +147,8 @@ header ul li:hover {
   .header-div3 img {
     width: 28px;
     cursor: pointer;
+    position: relative;
+    top: 2px;
   }
 
   .header-div3 button {

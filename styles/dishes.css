@@ -144,6 +144,18 @@
   .dishes_heading h2{
     font-size: 3rem;
   }
+  .dishes_heading p{
+    font-size: 1.4rem;
+  }
+}
+
+@media screen and (min-width: 768px){
+  .dishes_heading h2{
+    font-size: 3.6rem;
+  }
+  .dishes_heading p{
+    font-size: 1.6rem;
+  }
 }
 
 @media screen and (min-width: 844px) {
@@ -219,7 +231,7 @@
    }
 
    .dishes_heading h2{
-    font-size: 3rem;
+    font-size: 4rem;
     line-height: 1.4;
     margin-top: 1.5rem;
    }
@@ -230,6 +242,7 @@
 
   .dishes_container {
     margin: 8rem 4rem;
+    margin-top: 10rem;
   }
   .dishes_parent {
     column-gap: 3rem;
@@ -264,7 +277,7 @@
    }
 
    .dishes_heading h2{
-    font-size: 4rem;
+    font-size: 4.6rem;
     line-height: 1.2;
     margin-top: 1.8rem;
     text-align: left;

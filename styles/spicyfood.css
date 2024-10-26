@@ -61,7 +61,11 @@
   border-radius: 60px;
   background-color: #ffffff;
   padding: 1rem;
-  padding-right: 1rem;
+  padding-right: 1.2rem;
+}
+
+.child_element:first-of-type{
+  padding-right: 2.3rem;
 }
 
 .child_element img {
@@ -97,7 +101,7 @@
 
 .delight h1 {
   font-size: 3rem;
-  font-weight: 800;
+  font-weight: bold;
   line-height: 1.4;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -155,6 +159,9 @@
   cursor: pointer;
 }
 
+.btn img:hover{
+  background: #d3d1d1;
+}
 
 @media screen and (min-width: 475px) {
 
@@ -165,6 +172,9 @@
   .child_element{
     padding-left: 1.6rem;
     padding-right: 1.8rem;
+  }
+  .child_element:first-of-type{
+    padding-right: 3rem;
   }
 
   .child_element img {
@@ -278,18 +288,19 @@
 
   .delight {
     max-width: 400px;
+    margin-top: 4rem;
   }
   .delight h1{
-    font-size: 3rem;
+    font-size: 3.6rem;
     margin-bottom: 2.4rem;
   }
 
   .delight p{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   .btn button{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     padding: 1.3rem 2rem;
     white-space: nowrap;
   }
@@ -299,8 +310,11 @@
   }
 
   .btn p{
-    font-size: 1.8rem;
+    font-size: 1.9rem;
     white-space: nowrap;
+  }
+  .btn img{
+    width: 40px;
   }
 }
 
@@ -313,6 +327,7 @@
 
   .parent_div {
     align-items: center;
+    column-gap: 8rem;
   }
 
   .Intersect {
@@ -357,12 +372,12 @@
   }
 
   .delight h1{
-    font-size: 4rem;
+    font-size: 4.8rem;
     margin-bottom: 2.4rem;
   }
 
   .delight p{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-top: 2rem;
     max-width: 450px;
   }
@@ -379,6 +394,10 @@
   .btn p{
     font-size: 2.2rem;
     margin: 0 1rem;
+  }
+  .btn img{
+    width: 50px;
+    padding: 1.2rem 1.4rem;
   }
 }
 

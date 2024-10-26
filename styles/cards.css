@@ -113,10 +113,6 @@
     text-align: center;
   }
 
-  .testimonials_content{
-    max-width: 390px;
-  }
-
   .cards {
     padding: 3rem 2rem;
   }
@@ -125,7 +121,7 @@
   }
 
   .cards_container{
-    grid-template-columns: repeat(2, 220px);
+    grid-template-columns: repeat(2, 200px);
   }
 
   .cards h2{
