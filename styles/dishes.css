@@ -1,6 +1,11 @@
 
 /* Dishes Section */
 
+
+
+
+
+
 .dishes_container {
   margin: 6rem 4rem;
 }
@@ -52,7 +57,7 @@
 
 .dishes_items p{
   color: #555555;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
 }
 .dishes_items .description img{
@@ -108,6 +113,7 @@
 .dishes_parent {
   display: flex;
   align-items: center;
+  justify-content: center;
   column-gap: 2rem;
   overflow-x: auto;
   padding-bottom: 2rem;
@@ -123,7 +129,6 @@
 
 .arrow1 {
   background: #EFEFEF;
-  padding: 1rem;
   border-radius: 50%;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
@@ -131,6 +136,7 @@
 
 .arrow1 img{
   width: 9px;
+  /* transform: rotate(180deg); */
 }
 
 .arrow2 {
@@ -138,6 +144,9 @@
   border-radius: 50%;
   padding: 0.8rem 1.2rem;
   cursor: pointer;
+}
+.arrow2 img {
+  width: 9px;
 }
 
 @media screen and (min-width: 400px){
@@ -283,3 +292,4 @@
     text-align: left;
    }
 }
+

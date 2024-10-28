@@ -29,14 +29,14 @@
   grid-template-columns: repeat(2, 130px);
   column-gap: 2rem;
   row-gap: 2rem;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .food_items {
   box-shadow: 2px 10px 30px 0px #0000001A;
   border-radius: 35px;
   padding: 2rem;
-  padding-left: 3rem;
+  /* padding-left: 3rem; */
   padding-bottom: 1.6rem;
   display: flex;
   flex-direction: column;
@@ -76,16 +76,16 @@
 }
 
 
-@media screen and (min-width: 475px) {
+@media screen and (min-width: 400px) {
 
   .food_container {
     margin-top: 4rem;
     display: grid;
-    grid-template-columns: repeat(2, 170px);
+    grid-template-columns: repeat(2, 160px);
     column-gap: 2rem;
     row-gap: 2rem;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
   }
   .food_heading h1{
     font-size: 3rem;
@@ -127,6 +127,12 @@
  
 }
 
+@media screen and (min-width: 475px) {
+
+  .food_container {
+    grid-template-columns: repeat(2, 170px);
+  }
+}
 
 @media screen and (min-width: 768px) {
 
