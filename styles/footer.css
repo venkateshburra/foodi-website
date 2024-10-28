@@ -42,7 +42,6 @@ footer p{
   color: #555555;
   font-size: 1.5rem;
   font-weight: 500;
-  /* white-space: nowrap; */
 }
 
 footer p img{
@@ -93,6 +92,11 @@ footer p img{
     width: 45px;
     padding: 1rem 1.4rem;
     border-radius: 50%;
+  }
+
+  footer p{
+  white-space: nowrap;
+
   }
 
 }
