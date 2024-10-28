@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
   function updateDisplayedDish(index) {
-    // Hide all dishes and only display the current one
+    // Hiding all dishes and only displaying the current one
     dishesItems.forEach((item, i) => {
       item.style.display = i === index ? "block" : "none";
     });
@@ -33,13 +33,13 @@ document.addEventListener("DOMContentLoaded", () => {
   function handleArrowClick(direction) {
     if (direction === "right") {
       currentIndex = (currentIndex + 1) % dishesItems.length;
-      rightArrow.style.background = "#39DB4A"; // Apply green background
+      rightArrow.style.background = "#39DB4A"; 
 
       rightArrowImg.src = 'images/right.png';
       rightArrowImg.style.transform = 'rotate(0deg)';
       leftArrowImg.src = 'images/left.png';
       leftArrowImg.style.transform = 'rotate(0deg)'; 
-      leftArrow.style.background = "#EFEFEF";   // Reset left arrow
+      leftArrow.style.background = "#EFEFEF";
 
     } else if (direction === "left") {
       currentIndex = (currentIndex - 1 + dishesItems.length) % dishesItems.length;
@@ -48,7 +48,7 @@ document.addEventListener("DOMContentLoaded", () => {
       leftArrowImg.style.transform = 'rotate(-180deg)';
       rightArrowImg.src = 'images/left.png';
       rightArrowImg.style.transform = 'rotate(-180deg';
-      rightArrow.style.background = "#EFEFEF"; // Reset right arrow
+      rightArrow.style.background = "#EFEFEF";
 
     }
     updateDisplayedDish(currentIndex);
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function disableArrowNavigation() {
-    // Reset styles, remove event listeners, and show all dishes
+    // Reseting styles, removing event listeners, and show all dishes
     dishesItems.forEach((item) => (item.style.display = "block"));
     leftArrow.style.background = "#EFEFEF";
     rightArrow.style.background = "#39DB4A";
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
     leftArrow.removeEventListener("click", leftArrowHandler);
   }
 
-  // Handlers to ensure they can be removed
+ 
   function rightArrowHandler() {
     handleArrowClick("right");
   }
@@ -79,14 +79,13 @@ document.addEventListener("DOMContentLoaded", () => {
     handleArrowClick("left");
   }
 
-  // Initial screen size check to set up arrow functionality if needed
   if (window.innerWidth < 844) {
     enableArrowNavigation();
   } else {
     disableArrowNavigation();
   }
 
-  // Adjust arrow functionality based on screen resizing
+  // Adjusting arrow functionality based on screen resizing
   window.addEventListener("resize", () => {
     if (window.innerWidth < 844) {
       enableArrowNavigation();
