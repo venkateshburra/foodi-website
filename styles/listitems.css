@@ -90,6 +90,10 @@
     flex-wrap: nowrap;
   }
 
+  .article_list {
+    margin: 1rem 2.4rem;
+  }
+
   .list_items {
     width: auto;
   }
