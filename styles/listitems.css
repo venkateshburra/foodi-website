@@ -2,7 +2,7 @@
 /* article List items */
 
 .article_list {
-  margin: 1rem 3rem;
+  margin: 1rem 5.4rem;
 }
 
 .list_items .f-image1 {
@@ -15,6 +15,7 @@
 
 .list_items{
   margin-bottom: 2rem;
+  /* margin-left: 2rem; */
 }
 
 .list_items .f-foodi {
